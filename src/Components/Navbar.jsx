@@ -103,10 +103,7 @@ const Navbar = () => {
 
       
         </nav>
-        <div className="mt-96 text-center text-base ml-5">
-
-        <p className="text-[20px]">call : 08066670296</p> 
-        </div>
+        
       </div>
     </div>
             

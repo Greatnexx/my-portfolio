@@ -5,6 +5,7 @@ import MainLayout from './layouts/MainLayout'
 import AboutPage from './pages/AboutPage'
 import ProjectPage from "./pages/ProjectPage"
 import ContactPage from './pages/ContactPage'
+import ErrorPage from './pages/ErrorPage'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='/about' element={<AboutPage/>}/>
         <Route path='/project' element={<ProjectPage/>}/>
         <Route path='/contact' element={<ContactPage/>}/>
+        <Route path='*' element={<ErrorPage/>}/>
       </Route>
     </Routes>
     </BrowserRouter>
