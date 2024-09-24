@@ -38,17 +38,17 @@ const Navbar = () => {
 
 
       {/* mobile navbar */}
-      <nav className="md:hidden px-4 py-2">
+      <nav className="md:hidden px-4 py-2 relative ">
       <Link to ='/' >
               <h1 className='text-[35px] text-[#FFF] px-4'>Danielz<span className="text-[#FD6035]">.</span></h1> 
             </Link>
             <div>
       {/* Button to open the menu */}
       <button
-        className="fixed top-3 right-5 bg-[#FD6035] text-white px-2 py-2 rounded-md"
+        className="fixed  top-3 right-5 bg-[#FD6035] text-white px-2 py-2  rounded-md" style={{position:"absolute"}}
         onClick={toggleMenu}
       >
-        <CiMenuFries className="text-[#FFF] size-6" />
+        <CiMenuFries className="text-[#FFF] size-6 s" />
       </button>
 
       {/* Overlay */}

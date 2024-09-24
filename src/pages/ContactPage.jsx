@@ -10,8 +10,7 @@ const ContactPage = () => {
       <h1 className=' text-[40px] md:text-[80px] text-[#FD6035]'>Contact me</h1>
       
        <p className='  text-[20px] md:text-[20px]'>Let's bring your vision to life! I'm excited <br /> to collaborate with you. Feel free to reach out, and together,<br /> we'll build an amazing project today.
-
-</p> 
+      </p> 
       </div>
         
      
