@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFacebook, FaTelegram, FaWhatsapp } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 import { Link } from 'react-router-dom'
+import Test from '../Components/Test'
 
 const ContactPage = () => {
   return (
@@ -29,6 +30,8 @@ const ContactPage = () => {
   </Link>
 </div>
 
+
+{/* <Test/> */}
 
     </div>
   )
